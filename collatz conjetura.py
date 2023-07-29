@@ -1,4 +1,6 @@
 "Collatz"
+'''La explicacion del codigo esta en el archivo README.MD'''
+
 number = int(input("Ingrese un valor numérico: "))
 if number <= 0:
     raise ValueError("El número debe ser mayor que cero.")
